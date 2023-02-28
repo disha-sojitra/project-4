@@ -1,0 +1,111 @@
+.color{
+    color: #d16527!important;
+}
+
+
+.font{
+    font-family: Chakra Petch!important;
+}
+.font1{
+    font-family: mulish!important;
+}
+.hello{
+    background-color: #D16527;
+    width: 192px;
+    height: 59px;
+}
+.bg-color{
+    background-color: black!important;
+}
+.fcolor{
+    color: #abb8c3;
+}
+.path-box{
+    clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px)!important;
+}
+.box-path{
+    clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px)!important;
+}
+.top-line{
+    border-top: 1px solid #D16527;
+}
+.box{
+    width:32px;
+    height:32px;
+    background-color: #D16527!important;
+}
+
+.car{
+    opacity: 50%;
+    position: relative;
+}
+
+.car-img{
+    position: relative!important;
+}
+
+.icon{
+    position: absolute!important;
+    width:70px;
+    height:70px;
+    background-color:#af531d ;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.opacity{
+    opacity: 40%;
+}
+
+.sp{
+    color: #c6c6c6!important;
+}
+
+.pcolor{
+    color: #606060;
+}
+.btn{
+    padding: 2px 4px;
+
+    background-color: #D16527!important;
+}
+.ico{
+    width: 6px;
+    height: 8px;
+}
+.color-t{
+    color: #c6c6c6!important;
+}
+.color-o{
+    color: #d16527!important;
+}
+
+.color-3{
+    background-color: #161616;  
+}
+
+.f{
+    width: 450px;
+}
+.c{
+    color: #ededed;
+}
+.f1{
+    width: 100%;
+}
+
+.bt{
+    background-color: #777;
+}
+
+.color-v{
+    color: #121212!important;
+}
+
+.section{
+    transform: translate(-50% ,-50%);
+}

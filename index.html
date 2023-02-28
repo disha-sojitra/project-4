@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive header</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+ <nav class="navbar navbar-expand-lg text-light bg-dark p-2">
+     <div class="container-fluid ps-3">
+          <div class="col-3">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" class="w-75" alt="">
+          </a>
+        </div>
+        <div class="col-7 text-center">
+          <button class="navbar-toggler" type="button" id="#off1"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <i class="fa-solid fa-bars text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto  mb-lg-0 ">
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#">HOME</a>
+                <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="#">Home 2</a></li>
+                  </ul>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link  text-light active color dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#">SERVICES</a>
+                <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="#">Services-2</a></li>
+                    <li><a class="dropdown-item" href="#">Single Services-1</a></li>
+                    <li><a class="dropdown-item" href="#">Single Services-2</a></li>
+                    
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#">BOLG</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog post</a></li>
+                    <li><a class="dropdown-item" href="#">Bolg sidebar</a></li>
+                    <li><a class="dropdown-item" href="#">Blog details</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#">SHOP</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Shop list</a></li>
+                    <li><a class="dropdown-item" href="#">Shop cart</a></li>
+                    <li><a class="dropdown-item" href="#">Shop checkout</a></li>
+                    <li><a class="dropdown-item" href="#">Shop details  </a></li>
+                  </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" href="#">PAGES</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">About us</a></li>
+                    <li><a class="dropdown-item" href="#">Team</a></li>
+                    <li><a class="dropdown-item" href="#">Team details</a></li>
+                    <li><a class="dropdown-item" href="#">Car compare</a></li>
+                    <li><a class="dropdown-item" href="#">Car brands</a></li>
+                  </ul>
+              </li>
+            
+            </ul>
+          </div>
+
+        </div>
+  </div>
+
+        <div class="col-2">
+          <button  type="button" class="btn border text-light border-2 border-warning path-box" data-bs-toggle="offcanvas" href="#off1">
+            +39 123 45 67 789
+          </button>
+        </div>
+    </nav>
+    
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="off1">
+      <div class="offcanvas-header">
+      TABLE
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non explicabo provident pariatur voluptate. Animi eligendi ullam est neque vitae ipsam ratione, odio harum porro repellat?</p>
+      </div>
+    </div>
+
+
+    <section class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 col-sm-12 col-md-12  col-lg-5  py-4">
+            <h1 class="font py-2 ">
+              AUTO</br> MAINTENANCE &</br> REPAIR SERVICE
+            </h1>
+            <p class="font1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+
+
+            <button class="hello text-light border-0 btn-lg box-path ">
+              GET SERVICE
+            </button>
+          </div>
+          <div class="d-none d-lg-block col-lg-7 position-relative ">
+           <img src="img/car.png" class="w-100 position-absolute top-0" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light bg-color p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-5">
+            <h1 class="font">8K+</h1>
+          <hr/>
+            <p class="fcolor">Happy Clients dolor purus non enim praesent elementum</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-5">
+            <h1 class="font">500+</h1>
+            <hr/>
+            <p class="fcolor">Years on market diam vel quam elementum adipiscing commodo</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-5">
+            <h1 class="font">22+</h1>
+            <hr/>
+            <p class="fcolor">Instrument & parts suspendisse ante in nibh egestas egestas</p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 py-5">
+            <h1 class="font">99%</h1>
+            <hr/>
+            <p class="fcolor">Complate projects congue aenean. Diam vel quam elementum</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark text-light py-5">
+      <div class="container py-5">
+        <div class="row">
+          <h2 class="font">OUR SERVICE</h2>
+
+          <div class="col-12 ">
+        <div class="row">
+          <div class="col-4 col-sm-12 col-md-6 col-lg-4 py-3 ">
+            <hr/>
+            <img src="img/Icon-7.png "  alt="">
+            <h3 class="font py-2 color-g">
+              BRAKE REPAIR
+            </h3>
+            <p class="color-t">
+              Eget velit aliquet sagittis id consectetur. Elit ut aliquam purus sit amet luctus. Odio eu feugiat pretium nibh ipsum consequat nisl vel
+            </p>
+
+            <button type="button" class="btn border-0 box text-light text-center">
+              <i class="fa-solid fa-angle-right"></i>
+             </button>
+           <span class="color-g font ">
+            
+						DETAIL SERVICE					
+           </span>
+
+        </div>
+        <div class="col-4  col-sm-12 col-md-6 col-lg-4 py-3 ">
+          <hr/>
+          <img src="img/Icon-2.png "  alt="">
+          <h3 class="font py-2 color-g">
+            ENGINE REPAIR
+          </h3>
+          <p class="color-t">
+            Eget velit aliquet sagittis id consectetur. Elit ut aliquam purus sit amet luctus. Odio eu feugiat pretium nibh ipsum consequat nisl vel
+          </p>
+
+          <button type="button" class="btn border-0 box text-light text-center">
+            <i class="fa-solid fa-angle-right"></i>
+           </button> 
+         <span class="color-g font ">
+          
+          DETAIL SERVICE				
+         </span>
+
+      </div>
+      <div class="col-4 col-sm-12 col-md-6 col-lg-4 py-3 ">
+        <hr/>
+        <img src="img/Icon-3.png "  alt="">
+        <h3 class="font py-2 color-g">
+          TIRE REPAIR
+        </h3>
+        <p class="color-t">
+          Eget velit aliquet sagittis id consectetur. Elit ut aliquam purus sit amet luctus. Odio eu feugiat pretium nibh ipsum consequat nisl vel
+        </p>
+
+        <button type="button" class="btn border-0 box text-light text-center">
+          <i class="fa-solid fa-angle-right"></i>
+         </button> 
+       <span class="color-g font ">
+        
+        DETAIL SERVICE					
+       </span>
+
+    </div>
+        </div>
+        
+      </div>
+
+
+        <div class="col12">
+            <div class="row">
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4 py-3 ">
+                <hr/>
+                <img src="img/Icon-1.png" alt="">
+                <h4 class="font">BATTERY REPAIR</h4>
+                <p>At auctor urna nunc id cursus metus. In</br> vitae turpis massa sed. Duis aute irure</br> dolor in reprehenderit in voluptate velit</p>
+                <button type="button" class="btn border-0 box text-light text-center">
+                  <i class="fa-solid fa-angle-right"></i>
+                 </button>
+              </div>
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4 py-3 ">
+                <hr/>
+                <img src="img/Icon-4.png" alt="">
+                <h4 class="font">TIRE REPAIR</h4>
+                <p>Fermentum posuere urna nec tincidunt</br> praesent. Dignissim enim sit amet</br> venenatis. Lorem ipsum dolor sit amet</p>
+                <button type="button" class="btn border-0 box text-light text-center">
+                  <i class="fa-solid fa-angle-right"></i>
+                 </button>
+              </div>
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4 py-3  ">
+                <hr/>
+                <img src="img/Icon-5.png" alt="">
+                <h4 class="font">STEERING REPAIR</h4>
+                <p>Fermentum posuere urna nec tincidunt</br> praesent. Dignissim enim sit amet</br> venenatis. Lorem ipsum dolor sit amet</p>
+                <button type="button" class="btn border-0 box text-light text-center">
+                  <i class="fa-solid fa-angle-right"></i>
+                 </button>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="bg-dark text-light ">
+      <div class="container-fluid dark">
+        <div class="row">
+          <div class="col-12 dark car-img">
+            <h1 class="text-light font ">MAINTENANCE & REPAIRS</h1>
+            <hr/>
+          <img src="img/luxury-car-at-the-service-station-for-vehicle-deta-2021-09-01-12-14-52-utc.jpg"  class="img-fluid box w-100 h-75 opacity" alt="">
+            <div class="icon section">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <h1 class="font">MAINTENANCE & <br/>REPAIRS</h1>
+                <p class="sp">Nibh mauris cursus mattis molestie a iaculis at erat. Venenatis cras sed felis eget velit aliquet sagittis id consectetur.</p>
+              </div>
+              <div class="col-4 col-sm-6 col-md-6 col-lg-4 ">
+                <hr/>
+                <h6 class="text-center p-2">PERSONAL</h6>
+                <h1 class="text-light text-center font">
+                   <sup>$</sup> 49.99
+                  </h1>
+                  <h6 class="font-1 ps-4 p-2 "> <i class="fa-solid fa-check "></i> Pellentesque tincidunt</h6>
+                  <h6 class="font-1 ps-4 p-2 "> <i class="fa-solid fa-check "></i> Morbi molestie mattis</h6>
+                  <h6 class="font-1 ps-4 p-2 "> <i class="fa-solid fa-check "></i> Enim aliquet porttitor</h6>
+                  <h6 class="font-1 ps-4 p-2 pcolor"> <i class="fa-solid fa-check "></i> Scelerisque lorem donec</h6>
+                  <h6 class="font-1 ps-4 p-2 pcolor "> <i class="fa-solid fa-check"></i>Eget sit amet adipiscing</h6>
+                  <button class=" hello text-light  font border-0 button-5 box-path fw-bold  btn-lg  m-4 ">
+                    <div class="class fs-6">
+                     GET SERVICE
+                    </div>
+                   </button>
+              </div>
+              
+
+              <div class="col-4 col-sm-6 col-md-6 col-lg-4">
+                <hr/>
+                <h6 class="text-center p-2">
+                  PROFESSIONAL
+                </h6>
+                <h1 class="text-light text-center font">
+                 
+                <sup>$</sup> 99.99
+                </h1>
+             
+                <h6 class=" ps-4 p-2 "> <i class="fa-solid fa-check "></i> Pellentesque tincidunt</h6>
+                <h6 class=" ps-4 p-2 "> <i class="fa-solid fa-check "></i> Morbi molestie mattis</h6>
+                <h6 class=" ps-4 p-2 "> <i class="fa-solid fa-check "></i> Enim aliquet porttitor</h6>
+                <h6 class=" ps-4 p-2  "> <i class="fa-solid fa-check "></i> Scelerisque lorem donec</h6>
+                <h6 class=" ps-4 p-2 "> <i class="fa-solid fa-check"></i>Eget sit amet adipiscing</h6>
+               
+                 <button class=" hello text-light  font border-0 fw-bold box-path  button-5  btn-lg  m-4 ">
+                <div class="class fs-6 ">
+                 GET SERVICE
+                </div>
+               </button> 
+             </div>
+          </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 py-5">
+                <img src="img/1.jpg"class="w-100 opacity" alt="">
+              </div>
+              <div class="col-12 col-sm-12 col-md-6  py-5">
+                <h1 class="font py-4">
+                  CAR EXTERIOR</br> CLEANING: BASIC</br> DETAILING
+                </h1>
+                <div class="col-12 position-relative">
+                  <div class="row">
+                    <div class="col-6 py-3">
+                      <button type="button" class="btn text-dark m-1 "><i class="fa-solid fa-check"></i></button>
+                      <span class=" font1">SAME DAY SERVICE</span></br>
+                      <button type="button" class="btn text-dark m-1 "><i class="fa-solid fa-check"></i></button>
+                      <span class=" font1">CONVENIENT LOCATION</span>
+                    </div>
+                    <div class="col-6 py-3">
+                      <button type="button" class="btn text-dark m-1 "><i class="fa-solid fa-check"></i></button>
+                      <span class=" font1">ONLINE APPOINTMENT</span></br>
+                      <button type="button" class="btn text-dark m-1 "><i class="fa-solid fa-check"></i></button>
+                      <span class=" font1">COMPLIMENTARY SHUTTLE</span>
+                    </div>
+
+                    <button class=" hello text-light  font border-0 fw-bold box-path  button-5  btn-lg  m-4 ">
+                      <div class="class fs-6 ">
+                       GET SERVICE
+                      </div>
+                     </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col-12">
+            <div class="row">
+              <div class="col-6 py-5">
+                <h1 class="font py-3">RUBBING, WAXING, </br>AND POLISHING</h1>
+                <p class="">Gravida quis blandit turpis cursus in hac</br> habitasse platea. Velit sed ullamcorper morbi</br> tincidunt ornare massa eget. Odio morbi quis </br>commodo odio aenean. Ut etiam sit amet nisl</br> purus</p>
+
+                <button class=" hello text-light  font border-0 fw-bold box-path  button-5  btn-lg  m-4 ">
+                  <div class="class fs-6 ">
+                   GET SERVICE
+                  </div>
+                 </button>
+              </div>
+
+              <div class="col-6 py-5">
+                <img src="img/professional-vehicle-body-polishing-2021-09-01-12-15-02-utc.jpg" class="w-100 opacity" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+                <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+                  <h2 class="font p-2">
+                  HOW TO SERVICE </br>YOUR CAR
+                </h2>
+                <p>Egestas integer eget aliquet nibh praesent tristique magna. Penatibus magnis dis parturient montes</p>
+              </div>
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+                <hr class="text-light"><h4 class="font text-light fw-bold"> <span class="color-o">01</span>  &nbsp 
+                MAKE AN APPOINTMENT</h4>
+              <p class=" color-t py-3">Tempor id eu nisl nunc mi ipsum faucibus. Ac feugiat sed lectus vestibulum. Pellentesue</br> habitant morbi tristique senectus</p>
+              <hr class="text-light ">
+              <h4 class="font text-light fw-bold"> <span class="color-o">03</span>  &nbsp 
+                CONFIRM REQUEST</h4>
+              <p class=" color-t py-3">Ullamcorper eget nulla facilisi etiam. Integer</br> eget aliquet nibh praesent tristique magna sit.</br> Placerat vestibulum lectus mauris ultrices</p>
+              </div>
+
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+                <hr class="text-light"><h4 class="font text-light fw-bold"> <span class="color-o">02</span>  &nbsp 
+                SELECT SERVICE</h4>
+              <p class=" color-t py-3">Pretium quam vulputate dignissim</br> suspendisse in est ante. Neque tempus quam pellentesque nec nam aliquam</p>
+              <hr class="text-light ">
+              <h4 class="font text-light fw-bold"> <span class="color-o">04</span>  &nbsp 
+                GET YOUR CAR</h4>
+              <p class=" color-t py-3">Faucibus ornare suspendisse sed nisi lacus</br>  sed viverra tellus in. Tortor pretium viverra</br> suspendisse potenti nullam</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <section class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="font">POPULAR ARTICLES</h1>
+          <hr/>
+          <div class="col-12 py-4">
+            <div class="card bg-dark text-light">
+              <img src="img/chuttersnap-gts_Eh4g1lk-unsplash.jpg " class="card-img opacity w-100" alt="...">
+              <div class="card-img-overlay end-0  ">
+                <button type="button" class="btn  text-light font-1 mx-1">SUSPENSION</button>
+                <button type="button" class="btn bt  text-light font1  mx-1">TUNING</button>
+                <h4 class="font px-1 py-3">
+                  HOW TO KNOW IF YOUR CAR NEEDS AN OIL CHANGE								
+                </h4>
+                                                            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+                <img src="img/1.jpg" class="w-100" alt="">
+                <h4 class="font p-3">WHAT TO DO WHEN POWER STEERING GOES OUT</h4>
+                <span class="p sp font-1">&nbsp <i class="fa-solid fa-clock   "></i> August 14,2020 &nbsp <i class=" px-2 fa-solid fa-comments "></i>No Comments</span>
+              </div>
+
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+                <img src="img/2.jpg" class="w-100" alt="">
+                <h4 class="font p-3">MASS AIR FLOW SENSOR: WHAT IT  IS AND SIGNS OF FAILURE</h4>
+                <span class="p sp font-1">&nbsp <i class="fa-solid fa-clock   "></i> August 14,2020 &nbsp <i class=" px-2 fa-solid fa-comments "></i>No Comments</span>
+              </div>
+
+              <div class="col-4 col-sm-12 col-md-6 col-lg-4">
+                <img src="img/3.jpg" class="w-100" alt="">
+                <h4 class="font p-3">IF YOUR CAR DOES NOT PASS A SAFETY INSPECTION</h4>
+                <span class="p sp font-1">&nbsp <i class="fa-solid fa-clock"></i> August 14,2020 &nbsp <i class=" px-2 fa-solid fa-comments "></i>No Comments</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-dark text-light py-5 px-5 ">
+      <div class="container">
+        <div class="row">
+          <h2 class="font fw-bold">REQUEST AN APPOINTMENT ONLINE</h2>
+          <p class="sp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</br> sint occaecat cupidatat non proident</p>
+
+            <div class="col-6 ">
+              <form action="" method="post">
+              <label class="text-light font fw-bold">NAME</label>
+              <div class="py-3"><input type="email" class="f color-3 text-light" placeholder="Enter Your Name"></div>
+              </form> 
+              <form action="" method="post">
+                <label for="date" class="text-light  fw-bold">SELECT DATE</label>
+                <div class="py-3"><input type="text" class="f color-3 text-light" placeholder="Select Date"></div>  
+              </form>      
+            </div>
+
+            <div class="col-6 col-sm-12 col-md-6 col-lg-4">
+              <form action="" method="post">
+                 <label class="text-light  fw-bold">PHONE</label>
+                 <div class="py-3"><input type="email" class="f color-3 text-light" placeholder="Enter Your Phone"></div>
+                 </form> 
+                 <form action="" method="post">
+                   <label for="date" class="text-light font fw-bold">SELECT SERVICE</label>
+                   <div class="py-3">
+                     <select class="form-select form-select-sm color-3 text-light" aria-label="form-select-sm example">
+                       <option selected >BRAKE REPAIR</option>
+                       <option value="1">Cooling System</option>
+                       <option value="2">Engine Repair</option>
+                       <option value="3">Tire Repair</option>
+                     </select>
+                   </div>   
+                 </form>  
+               </div>
+
+               <form action="" method="post">
+                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                 <textarea class="form-control color-t color-3" id="exampleFormControlTextarea1" rows="3">discribe your Problem</textarea>
+              </form>
+
+
+              <button class=" hello text-light  font border-0 fw-bold box-path  button-5  btn-lg  m-4 ">
+                <div class="class fs-6 ">
+                 SEND MESSAGE
+                </div>
+               </button>
+        </div>
+      </div>
+    </section>
+
+
+<footer class="color-b bg-dark text-light py-s">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-5">
+              <div class="div py-4">
+                <img src="img/logo.png" class="w-75 sp" alt="">
+              </div>
+            <h6 class="color-t py-3">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            </h6>
+            <span class="sp">Support center 24/7</span>
+            <h3 class="font py-2">+ 1 123 456-7890</h3>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 py-5">
+           <h3 class="font text-center">ABOUT US</h3>
+           <h6 class="font  py-2 px-2"> <i class="fa-solid fa-square px-2 color-o"></i>ABOUT US</h6>
+           <h6 class="font  py-2 px-2"> <i class="fa-solid fa-square px-2 color-o"></i>OUR WORKS</h6>
+           <h6 class="font  py-2 px-2"> <i class="fa-solid fa-square px-2 color-o"></i>OUR TEAM</h6>
+           <h6 class="font  py-2 px-2"> <i class="fa-solid fa-square px-2 color-o"></i>FAQ</h6>
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 py-5">
+            <h3 class="font text-center">POPULAR SERVICES</h3>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2  color-o"></i>TIRE REPAIR</h6>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>BRAKE REPAIR</h6>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>ENGINE REPAIR</h6>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>CHARGING REPAIR</h6>
+ 
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 py-5">
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>COOLING SYSTEM</h6>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>WHEEL ALIGNMENT</h6>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>BATTERY STARTING</h6>
+            <h6 class="font  py-2"> <i class="fa-solid fa-square px-2 color-o"></i>SUSPENSION REPAIR</h6>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-5">
+            <h5 class="font text-center py-3 ">SUBSCRIBE</h5>
+            
+            <form action="" method="post" class="px-5">
+              <label class="text-light font fw-bold py-2">YOUR EMAIL</label>
+              <div class="py-3"><input type="email" class=" color-3 text-light" placeholder="Enter Your Email"></div>
+              </form> 
+              <div class="px-5 ">
+                <button class="btn hello box-path text-light fw-bold b1 font  button-5 ">SUBSCRIBE</button>
+              </div>
+
+          </div>
+          <h6 class="font-1 color-t text-center py-5">Merkulove © Promotors Template All rights reserved Copyrights 2022</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+     
+
+
+    
+
+
+
+  <!-- popper.min -->
+  <script src="js/popper.min.js"></script>
+  <!-- bootstrap.min -->
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html> 
